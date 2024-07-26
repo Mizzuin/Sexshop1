@@ -4,22 +4,39 @@
     margin:0%;
     padding: 0%;
  }
+ :root {
+   --cor0:#9442EB;
+   --cor1:#EB07AF;
+   --cor2:#BE00EB;
+   --cor3:#D265EB;
+   --cor4:#4D2FEB;
+   --cor5:#EB0020;
+
+
+ }
  header{
-    background-color: pink;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor3)) ;
 
  }
  nav{
-    background-color: blueviolet;
+    background-color:var(--cor2);
  }
  main{
-    background-color: blueviolet;
+   background-image: linear-gradient(to center, black, var(--cor1) );
+   border-radius: 10px;
+   margin:40px ;
  }
  section {
-    background-color: black;
+    background-color:white;
+    border-radius: 20px ;
  }
- div {
-    background-color: blueviolet;
+ div.produtos {
+    background-color:rgb(255, 2, 2);
+    columns:4;
+    margin: 10px;
+    padding: 45px ;
+
  }
  footer{
-    
+    background-color:;
  }
