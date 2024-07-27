@@ -16,10 +16,29 @@
  }
  header{
     background-image: linear-gradient(to right, var(--cor0), var(--cor3)) ;
+    padding: 150px;
 
  }
  nav{
     background-color:var(--cor2);
+    padding: 15px;
+ }
+ nav > a {
+   padding: 15px;
+   text-decoration: none;
+ }
+ nav > input {
+   padding: 8px;
+   width: 100vh ;
+   border-radius: 30px;
+   background-color: rgba(66, 66, 66, 0.473) ;
+   color: white;
+
+ }
+ nav > a:hover {
+   transition-duration: 0,5s;
+   border-radius: 15px;
+
  }
  main{
    background-image: linear-gradient(to center, black, var(--cor1) );
@@ -35,6 +54,9 @@
     columns:4;
     margin: 10px;
     padding: 45px ;
+    height:30px ;
+    width: 30px ;
+    border-radius: 15px;
 
  }
  footer{
