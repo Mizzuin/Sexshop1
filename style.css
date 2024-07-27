@@ -11,6 +11,7 @@
    --cor3:#D265EB;
    --cor4:#4D2FEB;
    --cor5:#EB0020;
+   --cor6: ;
 
 
  }
@@ -25,6 +26,7 @@
  }
  nav > a {
    padding: 15px;
+   margin:15px ;
    text-decoration: none;
  }
  nav > input {
@@ -44,6 +46,16 @@
    background-image: linear-gradient(to center, black, var(--cor1) );
    border-radius: 10px;
    margin:40px ;
+ }
+ aside > input.buttonav{
+   padding: 15px;
+   border-radius: 50%;
+   font-size: 30px ;
+   background-color: var(--cor2);
+ }
+ aside > a {
+   text-decoration: none;
+
  }
  section {
     background-color:white;
